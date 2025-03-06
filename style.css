@@ -1,0 +1,170 @@
+:root {
+    --angel-orange: #FF8C00;
+    --zerodha-blue: #387ED1;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    padding: 15px 0;
+    background: white !important;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4947d4 !important;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #666 !important;
+    padding: 0.5rem 1rem !important;
+}
+
+.btn-new {
+    background: #4947d4;
+    color: white;
+    border-radius: 6px;
+    padding: 8px 20px;
+}
+
+.badge-new {
+    background: #ff0000;
+    font-size: 10px;
+    padding: 4px 8px;
+    margin-left: 5px;
+}
+
+.sidebar {
+    width: 250px;
+    position: fixed;
+    height: calc(100vh - 70px);
+    padding: 20px;
+}
+
+.sidebar-item {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.sidebar-item:hover {
+    background: #f0f0f0;
+}
+
+.sidebar-item i {
+    margin-right: 10px;
+    color: #4947d4;
+}
+
+.main-content {
+    margin-left: 270px;
+    padding: 20px;
+}
+
+.broker-card {
+    height: 462px;
+    width: 379px;
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.broker-logo {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+.rating-stars {
+    color: #ffd700;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.rating-number {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.btn-demat {
+    background: #20b2aa;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.vs-badge {
+    width: 40px;
+    height: 40px;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.chart-container {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.table-container {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.table th {
+    background: #4947d4;
+    color: white;
+    font-weight: 500;
+}
+
+.pros-cons-container {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.pros-cons-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.pros-cons-item {
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.share-holding-container {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
